@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "parcel src/index.html",
+    "build":"parcel build src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx,html,css}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
@@ -27,7 +28,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "firebase-tools": "^9.14.0",
+    "firebase-tools": "^9.18.0",
     "movie-trailer": "^2.1.0",
     "reac": "^0.0.0",
     "react": "^17.0.1",
